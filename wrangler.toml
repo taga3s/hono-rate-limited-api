@@ -1,3 +1,7 @@
 name = "rate-limited-api"
 main = "src/index.ts"
 compatibility_date = "2025-01-10"
+
+[vars]
+UPSTASH_REDIS_REST_URL=""
+UPSTASH_REDIS_REST_TOKEN=""

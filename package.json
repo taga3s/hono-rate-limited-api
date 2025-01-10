@@ -7,6 +7,8 @@
   },
   "dependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@upstash/ratelimit": "^2.0.5",
+    "@upstash/redis": "^1.34.3",
     "hono": "^4.6.16"
   },
   "devDependencies": {
