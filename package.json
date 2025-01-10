@@ -1,0 +1,16 @@
+{
+  "name": "rate-limited-api",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "format": "biome format --write ./src"
+  },
+  "dependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "hono": "^4.6.16"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241218.0",
+    "wrangler": "^3.96.0"
+  }
+}
